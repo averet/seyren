@@ -49,7 +49,7 @@
 
     <properties>
         <mongo.version>2.6.3</mongo.version>
-        
+        <es.version>1.4.0</es.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <com.squareup.pagerduty.version>1.0.1</com.squareup.pagerduty.version>
@@ -378,6 +378,11 @@
               <artifactId>twilio-java-sdk</artifactId>
               <version>${com.twilio.sdk.twilio-java-sdk.version}</version>
             </dependency>
+            <dependency>
+			    <groupId>org.elasticsearch</groupId>
+			    <artifactId>elasticsearch</artifactId>
+			    <version>${es.version}</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 
